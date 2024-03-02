@@ -1,0 +1,35 @@
+*,:before,:after {margin: 0;padding: 0;box-sizing: border-box;} body {font-family: 'vardan', sans-serif;line-height: 1.7;color: #516171;}
+
+/* template 3 css start */
+.header-h1 span{font-weight: 600;color: #222528;}
+.crt-tm p{margin-bottom: 2px;}
+.crt-name input{padding: 0 10px;}
+.crt-tm p{color: #d44d4f;font-size: 14px;letter-spacing: 1px;}
+.bg-in input{border: none;}
+.bg-in select{border: none;color: #ccc;}
+.bg-in{border: 1px solid;width: 100%;max-width: 250px;}
+.bg-crt{width: 100%;max-width: 180px;}
+.main-tem-3{display: flex;justify-content: start;gap: 30px;align-items: end;padding-top: 50px;}
+.card-p h4, .card-ps h4{font-size: 14px;margin-bottom: -2px;color: #fff;}
+.card-p i{color: #fff;}
+.footer-section-card {display: flex;justify-content: end;align-items: center;gap: 30px;border-top: 1px solid #ccc;padding-top: 20px;}
+.card-p{display: flex;gap: 20px;}
+.card-ps, .card-p{background:#cf682f;padding: 10px 20px;border-radius: 4px;}
+.foote-map-start{padding-bottom: 30px;}
+.footer-section-card .card-p:last-child{background:#858f996b;}
+.footer-section-card .card-p:last-child i, .footer-section-card .card-p:last-child h4{color: #6C5243;}
+
+/* dialog template css start */
+.template-1 h4 {font-size: 14px;}
+.template-1 {display: flex;gap: 10px;align-items: baseline;background: #cf682f;padding: 4px 8px;color: #fff;letter-spacing: 1px;border-radius: 4px;}
+.file{text-align: center;padding: 100px 0 200px;}
+.file{position: relative;z-index: 0;}
+.file img{width: 100%;max-width: 100px;filter: invert(62%) sepia(82%) saturate(1305%) hue-rotate(2deg) brightness(107%) contrast(105%);}
+.file::before {position: absolute;content: '';width: 70px;height: 70px;background: url(../images/folder.png)no-repeat center center/cover;z-index: 1;top: 150px;margin-left: -40px;filter: invert(99%) sepia(2%) saturate(1881%) hue-rotate(211deg) brightness(110%) contrast(60%);}
+.file::after {position: absolute;content: '';width: 70px;height: 70px;background: url(../images/folder.png)no-repeat center center/cover;z-index: 1;top: 118px;margin-left: -40px;filter: invert(99%) sepia(2%) saturate(1881%) hue-rotate(211deg) brightness(110%) contrast(60%);}
+.file i {position: absolute;top: 130px;margin-left: -1px;z-index: 999;background: #fff;border-radius: 50%;border: 1px solid;padding: 2px 3px;}
+@media(max-width:768px){
+.main-tem-3{flex-direction: column;align-items: center;justify-content: center;}
+.footer-section-card{flex-direction: column;align-items: unset;}}
+/* dialog template css end */
+
